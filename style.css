@@ -5,11 +5,16 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body{
     font-family: "poppins", "roboto", serif;
     
+}
+body a{
+    text-decoration: none;
+    color: #cfd2d8;
 }
 
 .navigation-bar{
@@ -51,8 +56,8 @@ body{
 }
 
 .nav1-list-icon img{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 .nav-gmail-logo img{
     margin-top: 5px;

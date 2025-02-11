@@ -11,29 +11,29 @@ main{
                             "side main1 main1 main1 side2";
 
    grid-template-rows: 64px 50px 1fr 1fr 1fr;      
-   grid-template-columns:  17% 1fr 1fr 1fr 40px      
+   grid-template-columns:  minmax(200px, 250px) 1fr 1fr 1fr 40px      
 }   
 
-.a1{
-    grid-area: contain;
-    background-color: rgb(164, 198, 198);
-
+.side{
+    grid-area: side;
+    /* background-color: rgb(164, 198, 198); */
+    
 }
-.a2{
-    grid-area: main1;
+.contain{
+    grid-area: contain;
     background-color: rgb(141, 141, 156);
     overflow-y: auto;
-
+    
 }
 
-.a3{
-    grid-area: side;
+.main-contain{
+    grid-area: main1;
     background-color: rgb(153, 175, 160);
     overflow-y: auto;
 
 }
 
-.a4{
+.side-end{
     grid-area: side2;
     background-color: rgb(118, 113, 113);
 }

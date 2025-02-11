@@ -1,0 +1,142 @@
+.side{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* class="side-contain-1" wali class div ki CSS start */
+.side-contain-1{
+    width: 100%;
+    height: 80px;
+
+}
+
+
+.side-contain-1 a{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+
+.side-contain-1 .side-contain1-but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 150px;
+    gap: 12px;
+    background-color: #c2e7ff;
+    border-radius: 20px;
+    /* padding: 8px; */
+}
+
+.side-contain1-but:hover{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.318);
+    }
+
+.side-contain1-img img{
+    width: 20px;
+    height: 20px;
+}
+
+.side-contain1-data{
+    color: #001d35af;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* class="side-contain-2" wali class div ki CSS start */
+
+.side-contain-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    gap: 0%;
+    padding: 0%;
+    overflow-y: auto;
+}
+
+
+.side-contain2-but{
+    display: flex;
+    align-items: center;
+    justify-content: last baseline;
+    gap: 0%;
+    padding: 0 5px 0 5px;
+    padding:18px 5px ;
+    /* height:32px ; */
+    width: 98%;
+    max-width: 250px;
+    min-width: 160px;
+    /* background-color: #83c7f4; */
+    border-radius: 0px 60px 60px 0px;
+    position: relative;
+}
+
+.side2-img{
+    margin-left: 10%;
+    position: absolute;
+    top: 5px;
+}
+
+.side2-num{
+    position: absolute;
+    right: 4%;
+    font-size: 12px;
+    font-weight: 500;
+    color: #001d35;
+}
+
+.side2-subject{
+    position: absolute;
+    left: 30%;
+    color: #001d35;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.side-contain2-but:hover{
+    background-color: #e9eef6;
+
+    }
+
+
+
+.side-contain2-last{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 25px;
+}
+
+.side-contain2-last span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.side-contain2-last div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.side-contain2-last img{
+    height: 25px;
+    width: 25px;
+}
+
+.side-contain2-last div:hover{
+    background-color: #e9eef6;
+}
