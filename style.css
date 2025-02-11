@@ -9,6 +9,7 @@
 
 body{
     font-family: "poppins", "roboto", serif;
+    
 }
 
 .navigation-bar{
@@ -16,8 +17,10 @@ body{
     /* background-color: rgb(129, 125, 125); */
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 64px;
+    box-sizing: border-box;
+    grid-area: nav;
 }
 
 .nav-main-contain{
@@ -103,7 +106,7 @@ form input{
     /* margin-right: 60px; */
     padding: 8px;
     border-radius: 35px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.281)
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.179)
 }
 
 .nav-last-icons{
@@ -147,5 +150,5 @@ form input{
 
 .nav-hover:hover{
     background-color: #e9eef6;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
 }
