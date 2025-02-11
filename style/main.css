@@ -15,10 +15,9 @@ main{
 }   
 
 .side{
-    grid-area: side;
-    /* background-color: rgb(164, 198, 198); */
-    
+    grid-area: side; 
 }
+
 .contain{
     grid-area: contain;
     background-color: rgb(141, 141, 156);

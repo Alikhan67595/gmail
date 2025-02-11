@@ -19,7 +19,6 @@ body a{
 
 .navigation-bar{
     display: flex;
-    /* background-color: rgb(129, 125, 125); */
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -40,7 +39,6 @@ body a{
 
 .nav-1-div{
     display: flex;
-    /* margin-right: 20px; */
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -108,7 +106,6 @@ form input{
     height: 46px;
     width: 50%;
     max-width: 720px;
-    /* margin-right: 60px; */
     padding: 8px;
     border-radius: 35px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.179)
@@ -118,7 +115,6 @@ form input{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 5px; */
     margin-left: 10%;
 }
 
