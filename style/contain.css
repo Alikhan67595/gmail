@@ -1,0 +1,65 @@
+.contain{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+}
+
+.contain input {
+    height: 18px;
+    width: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+span{
+    position: relative;
+    top: 3px;
+}
+
+
+.contain-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 150px; */
+    gap: 7px;
+}
+
+.contain-icon div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.contain-icon div:hover{
+    background-color:#e9eef6 ;
+}
+
+
+.contain-icon-1 img{
+    height: 20px;
+    width: 20px;
+}
+
+.contain-icon-2 img{
+    height: 15px;
+    width: 15px;
+}
+.contain-icon-2{
+    font-size: 13px;
+}
+
+p{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p:hover{
+    background-color: #e9eef6;
+
+}
