@@ -37,13 +37,14 @@
     }
 
 .side-contain1-img img{
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
+    margin-top:4px ;
 }
 
 .side-contain1-data{
     color: #001d35af;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
 }
 
