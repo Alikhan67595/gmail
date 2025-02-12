@@ -29,7 +29,7 @@ main{
 
 .main-contain{
     grid-area: main1;
-    background-color: rgb(193, 202, 196);
+    background-color: #ffffff;
     overflow-y: auto;
     border-radius: 0 0 15px 15px;
 
