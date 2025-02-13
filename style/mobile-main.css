@@ -28,6 +28,7 @@
     margin: auto;
     margin-top: 15px;
     position: relative;
+    cursor: pointer;
   }
 
   .list-img{
@@ -74,6 +75,7 @@
 
   section{
     margin-top: 25px;
+    margin-bottom: 45px;
   }
 
   section .section-main-div{
@@ -85,6 +87,7 @@
     border-radius: 15px;
     width: 98%;
     margin: auto;
+    cursor: pointer;
   }
 
   .section-main-div:hover{
@@ -132,8 +135,11 @@
     position: relative;
     left: 70px;
     width: 65vw;
+    height: 40px;
     overflow: hidden;
     font-size: 13px;
+    white-space: nowrap;
+
   }
 
   .section-text span{
@@ -155,6 +161,7 @@
     bottom:70px;
     right: 20px;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.364);
+    cursor: pointer;
   }
 
   .compose-fix img{
@@ -184,6 +191,7 @@
     height: 30px;
     width: 60px;
     border-radius: 35px;
+    cursor: pointer;
     
   }
 
