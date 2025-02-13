@@ -1,4 +1,4 @@
-main{
+.main1{
     position: fixed;
     width: 100vw;
     box-sizing: border-box;
@@ -37,4 +37,11 @@ main{
 
 .side-end{
     grid-area: side2;
+}
+
+
+@media screen and (max-width:850px){
+    .main1{
+        display: none;
+    }
 }
