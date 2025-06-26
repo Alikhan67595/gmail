@@ -10,46 +10,47 @@
 </head>
 
 <body>
-   
+    
+
     <div class="main">
 
         <div class="login">
 
             <div class="main-design">
                 <span class="design-tool"></span>
-                <main class="design-div design-one" id="heading">Create Account</main>
+                <main class="design-div design-one" id="heading">Login Here!</main>
             </div>
 
 <div class="input-main">
             <label  class="main-label">
                 <input type="email" placeholder="Email" class="text-input" id="email">
             
-                <div class="arguments" id="chekMail">correct mail</div>
+                <div class="arguments">correct mail</div>
             </label>
 
 
             <label class="main-label">
-                <input onblur="validatePassword()" class="text-input" id="password" type="password" placeholder="Password" >
+                <input class="text-input" id="password" type="password" placeholder="Password" >
         
-                <div class="arguments" id="checkPassFun">8 least</div>
+                <div class="arguments">8 least</div>
             </label>
 
             <span class="show-pass-main-div">
             <label class="show-pass show-pass-main">
                 <input type="checkbox" id="checkBox" >
-                <span id="showpass">Show Password</span>
+                <span>Show Password</span>
             </label>
         </span>
 
-        <Button class="login-Btn" id="signUp_btn">Sign Up</Button>
+        <Button class="login-Btn" id="logIn_btn">Log In</Button>
 </div>
 
-    <div class="pop-up">Already have an account? <button id="loginBtn">log In</button></div>
+    <div class="pop-up">Don't have an account? <button id="loginBtnUp">Sign Up</button></div>
         </div>
     </div>
 
     <script src="./firebase.js" type="module"></script>
-    <script src="./app.js" type="module"></script>
+    <script src="./login.js" type="module"></script>
 </body>
 
 </html>
